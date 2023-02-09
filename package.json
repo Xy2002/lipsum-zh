@@ -1,0 +1,31 @@
+{
+  "name": "lipsum-zh",
+  "version": "1.0.0",
+  "description": "A js library for generating Chinese Lorem Ipsum",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "browser": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc && rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xy2002/lipsum-zh.js.git"
+  },
+  "author": "Xy2002",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xy2002/lipsum-zh.js/issues"
+  },
+  "homepage": "https://github.com/Xy2002/lipsum-zh.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.14.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}

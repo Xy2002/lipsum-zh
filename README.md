@@ -20,13 +20,20 @@
 支持ESM,CJS,UMD
 
 ```js
+//cjs
 const lipsum = require('lipsum-zh') 
-console.log(lipsum.generateText(20))
+lipsum.generateText(length)
+lipsum.generateParagraph(length)
+lipsum.generateArticle(length)
 
+//esm
+import { generateText, generateParagraph, generateArticle } from 'lipsum-zh'
 //or
-import { generateText } from 'lipsum-zh'
+import * as lipsumzh from 'lipsum-zh'
 
-//or
-
-console.log(window.lipsumzh.generateText(20))
+//browser
+window.lipsumzh.generateText(length)
+window.lipsumzh.generateParagraph(length)
+window.lipsumzh.generateArticle(length)
+```
 ```

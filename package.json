@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xy2002/lipsum-zh.js.git"
+    "url": "git+https://github.com/Xy2002/lipsum-zh.git"
   },
   "author": "Xy2002",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Xy2002/lipsum-zh.js/issues"
+    "url": "https://github.com/Xy2002/lipsum-zh/issues"
   },
-  "homepage": "https://github.com/Xy2002/lipsum-zh.js#readme",
+  "homepage": "https://github.com/Xy2002/lipsum-zh#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",

@@ -71,10 +71,11 @@ const generateParagraph: (desiredLength:number) => string = (desiredLength) => {
 };
 
 /**
- * Generate random chinese article of specified length 
+ * Generate random Chinese articles of specified length (will automatically split into paragraphs of 50-100 words and return an array)
  * @param {number} desiredLength - Length of the string to be generated
+ * @returns {string[]} - Array of paragraphs
 */ 
-const genrateArticle: (desiredLength:number) => string[] = (desiredLength) => {
+const generateArticle: (desiredLength:number) => string[] = (desiredLength) => {
   if (typeof desiredLength !== 'number') {
     throw new Error('Invalid argument: desiredLength must be a number');
   }
@@ -106,4 +107,4 @@ const genrateArticle: (desiredLength:number) => string[] = (desiredLength) => {
   return paragraphContents;
 }
 
-export { generateText, generateParagraph, genrateArticle };
+export { generateText, generateParagraph,  generateArticle };

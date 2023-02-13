@@ -1,6 +1,6 @@
 {
   "name": "lipsum-zh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A js library for generating Chinese Lorem Ipsum",
   "main": "index.cjs.js",
   "module": "index.esm.js",

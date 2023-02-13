@@ -36,4 +36,3 @@ window.lipsumzh.generateText(length)
 window.lipsumzh.generateParagraph(length)
 window.lipsumzh.generateArticle(length)
 ```
-```
